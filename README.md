@@ -1,25 +1,30 @@
-# S&P-Style Crypto Index Engine  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
-[![Quant Research](https://img.shields.io/badge/Field-Quant_Finance-blue)](https://www.spglobal.com/spdji/en/index-family/cryptocurrency/)  
+# S&P-Style Crypto Index Engine
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Quant Research](https://img.shields.io/badge/Field-Quant_Finance-blue)](https://www.spglobal.com/spdji/en/index-family/cryptocurrency/)
 
-Professional cryptocurrency index builder replicating S&P Global methodologies.  
+Research prototype for cryptocurrency index construction and methodology experiments.
 
-## Index Composition  
+## Index Composition
 ![S&P Crypto Index]<img width="998" height="570" alt="image" src="https://github.com/user-attachments/assets/d0cf4315-3c5d-4c60-aa3a-a9ccf5b8379b" />
 
 
-https://github.com/ArpitPandey9/crypto-index-research-engine/blob/main/snp_crypto_index.png 
+https://github.com/ArpitPandey9/crypto-index-research-engine/blob/main/snp_crypto_index.png
 
-## Features  
-- Free-float adjusted market cap weighting  
-- Liquidity screening ($1M+ daily volume)  
-- Automated daily reports  
-- Anomaly detection integration  
+## Features
+- Free-float adjusted market cap weighting
+- Liquidity screening ($1M+ daily volume)
+- Automated daily reports
+- Anomaly detection integration
 
-## Usage  
-```bash  
-# Install dependencies  
-pip install -r requirements.txt  
+## Usage
+```bash
+# Install dependencies
+pip install -r requirements.txt
 
-# Run index engine  
-jupyter notebook notebooks/s&p_crypto_index.ipynb  
+# Run index engine
+jupyter notebook notebooks/s&p_crypto_index.ipynb
+
+
+## Limitations
+
+This repository is a research prototype, not an official index methodology, production financial system, investment recommendation, or representation of any employer or client.
